@@ -21,7 +21,6 @@ class Dog
     @@all.each do |dog|
       new_array << dog.name
     end
-    end
   end
 
 
