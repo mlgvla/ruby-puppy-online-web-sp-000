@@ -19,7 +19,7 @@ class Dog
   def self.print_all
     new_array = []
     @@all.each do |dog|
-      new_array << dog.name
+      new_array << dog.@name
     end
   end
 
