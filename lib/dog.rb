@@ -17,7 +17,11 @@ class Dog
   end
 
   def self.print_all
-    @@all.each {|n| puts "#{n}"}
+    new_array = []
+    @@all.each do |dog|
+      new_array << dog.name
+    end
+    end
   end
 
 
