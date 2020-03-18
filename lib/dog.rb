@@ -18,9 +18,7 @@ class Dog
 
   def self.print_all
     new_array = []
-    @@all.each do |dog|
     binding.pry
-    end
   end
 
 
