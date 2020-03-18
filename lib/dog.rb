@@ -17,8 +17,7 @@ class Dog
   end
 
   def self.print_all
-    new_array = []
-    binding.pry
+    
   end
 
 
